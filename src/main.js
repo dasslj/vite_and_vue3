@@ -11,3 +11,6 @@ const app = createApp(App)
 app.provide("$echarts", echarts)
 
 app.mount('#app')
+
+
+

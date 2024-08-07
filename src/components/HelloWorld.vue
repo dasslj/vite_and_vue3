@@ -2,7 +2,7 @@
 import {inject} from "vue"
 const $echarts = inject("$echarts")
 
-const gaugeData = 70
+let gaugeData = 70
 
 const echartsData = () =>{
   serier:[
