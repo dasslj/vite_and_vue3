@@ -64,6 +64,15 @@
       
     </div>
 
+    <h1>关闭广告</h1>
+    <div class="gg">
+      <div class="close">
+        X
+      </div>
+      我是广告
+
+    </div>
+
 
 
 
@@ -295,6 +304,14 @@
     }, 1000)*/
 
 
+    // 点击关闭窗口事件
+
+    const closeDiv = document.querySelector(".close")
+    const ggDiv = document.querySelector(".gg")
+    closeDiv.addEventListener("click",()=>{
+      ggDiv.style.display = "none"
+    }) 
+
     // 表单
 
     /*const ipt = document.querySelector("#moreS")
@@ -305,17 +322,33 @@
 
 
 
-
-
-
-    
-   
-
   </script>
 </body>
 
 
 <style>
+
+  .gg{
+    width: 500px;
+    height: 200px;
+    background-color: pink;
+    text-align: center;
+    line-height: 200px;
+    cursor: pointer;
+
+    position: absolute;
+  }
+  .close{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    text-align: center;
+    line-height: 25px;
+    top: 5px;
+    right: 5px;
+    background-color: aqua;
+    border-radius: 50%;
+  }
 
 .lbtDiv{
     width: 300px;
@@ -376,6 +409,5 @@
   }
 </style>
 
-=======
->>>>>>> 7aeb737417bb5beec02e6864234f58ad3010b5aa
+
 </html>
