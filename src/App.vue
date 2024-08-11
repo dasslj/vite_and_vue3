@@ -1,33 +1,28 @@
+<template>
+  
+</template>
+
 <script setup>
 
+<<<<<<< HEAD
+=======
+// let str = " *"
+
+// let n = 8
+
+// for (let i = 0; i < n; ++i){
+//   for(let j = 0; j < i; ++j){
+//     document.write(str)
+//   }
+//   document.write("\n")
+// }
+
+
+
+
+>>>>>>> 7aeb737417bb5beec02e6864234f58ad3010b5aa
 
 </script>
 
-<template>
-  <div>
-    111
-    <div id="c1"></div>
-
-    <div id="c2"></div>
-
-    <div id="c3"></div>
-  </div>
-</template>
-
-<style scoped>
-#c1{
-  width: 300px;
-  height: 300px;
-  border: 1px red solid;
-}
-#c2{
-  width: 300px;
-  height: 300px;
-  border: 1px red solid;
-}
-#c3{
-  width: 300px;
-  height: 300px;
-  border: 1px red solid;
-}
+<style>
 </style>
